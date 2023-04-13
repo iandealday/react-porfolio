@@ -1,6 +1,6 @@
 import './App.css';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
-import { AiFillGithub, AiFillLinkedin, AiFillInfoCircle, AiFillGitlab} from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin, AiFillGitlab} from 'react-icons/ai';
 import { TbWorldWww } from 'react-icons/tb';
 import picture from './images/ian-nobg.png'
 import logo from './images/cd-logo.png'
@@ -33,7 +33,7 @@ function App() {
                   <a className='text-xl font-roboto px-3 py-2 rounded-md ml-8 dark:text-white' href='#'>Contact</a>
                 </li>
                 <li>
-                  <a className="bg-gradient-to-r from-cyan-500 to-teal-500  text-white px-3 py-2 rounded-md ml-8 " href='https://drive.google.com/file/d/1_vZl36jmqCmpKCJl4_haFU-y-vymxi4R/view' target='_blank'>Source Code</a>
+                  <a className="bg-gradient-to-r from-cyan-500 to-teal-500  text-white px-3 py-2 rounded-md ml-8 " href='https://github.com/iandealday/react-porfolio' target='_blank'>Source Code</a>
                 </li>
               </ul>
               <BsFillMoonStarsFill className='cursor-pointer text-2xl ml-10 dark:text-white' onClick={() => setDarkMode(!darkMode)} />

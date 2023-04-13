@@ -21,19 +21,19 @@ function App() {
               </label>
               <ul className="flex-grow hidden md:flex md:items-center">
                 <li>
-                  <a className='text-xl font-roboto px-3 py-2 rounded-md ml-8 dark:text-white' href='#'>About Me</a>
+                  <p className='text-xl font-roboto px-3 py-2 rounded-md ml-8 dark:text-white'>About Me</p>
                 </li>
                 <li>
-                  <a className='text-xl font-roboto px-3 py-2 rounded-md ml-8 dark:text-white' href='#'>Experience</a>
+                  <p className='text-xl font-roboto px-3 py-2 rounded-md ml-8 dark:text-white'>Experience</p>
                 </li>
                 <li>
-                  <a className='text-xl font-roboto px-3 py-2 rounded-md ml-8 dark:text-white' href='#'>Projects</a>
+                  <p className='text-xl font-roboto px-3 py-2 rounded-md ml-8 dark:text-white'>Projects</p>
                 </li>
                 <li>
-                  <a className='text-xl font-roboto px-3 py-2 rounded-md ml-8 dark:text-white' href='#'>Contact</a>
+                  <p className='text-xl font-roboto px-3 py-2 rounded-md ml-8 dark:text-white'>Contact</p>
                 </li>
                 <li>
-                  <a className="bg-gradient-to-r from-cyan-500 to-teal-500  text-white px-3 py-2 rounded-md ml-8 " href='https://github.com/iandealday/react-porfolio' target='_blank'>Source Code</a>
+                  <a className="bg-gradient-to-r from-cyan-500 to-teal-500  text-white px-3 py-2 rounded-md ml-8 " href='https://github.com/iandealday/react-porfolio' target='_blank' rel="noreferrer">Source Code</a>
                 </li>
               </ul>
               <BsFillMoonStarsFill className='cursor-pointer text-2xl ml-10 dark:text-white' onClick={() => setDarkMode(!darkMode)} />
@@ -50,22 +50,22 @@ function App() {
           </div>
 
           <div className='text-5xl flex justify-center gap-16 py-1 text-gray-600'>
-            <a href="https://iandealday.github.io/webportfolio/" target='_blank'>
+            <a href="https://iandealday.github.io/webportfolio/" target='_blank' rel="noreferrer">
               <TbWorldWww />
             </a>
-            <a href="https://gitlab.com/ian.dealday" target='_blank'>
+            <a href="https://gitlab.com/ian.dealday" target='_blank' rel="noreferrer">
               <AiFillGitlab />
             </a>
-            <a href="https://github.com/iandealday" target='_blank'>
+            <a href="https://github.com/iandealday" target='_blank' rel="noreferrer">
               <AiFillGithub />
             </a>
-            <a href="https://www.linkedin.com/in/christoper-ian-de-alday/" target='_blank'>
+            <a href="https://www.linkedin.com/in/christoper-ian-de-alday/" target='_blank' rel="noreferrer">
               <AiFillLinkedin />
             </a>
           </div>
 
           <div className='bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-5 mx-auto md:h-96 md:w-96 flex justify-center items-center'>
-            <img className="object-contain" src={picture} alt='My Picture' />
+            <img className="object-contain" src={picture} alt='Ian'/>
           </div>
         </section>
 
